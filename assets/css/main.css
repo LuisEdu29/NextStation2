@@ -846,9 +846,16 @@ section,
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  /* For consistent, fixed-looking tiles regardless of original image size */
+  aspect-ratio: 1 / 1; /* square tiles; change to 4/3 or other if you prefer */
+  height: auto;
 }
 
 .gallery .gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cover crops to fill the tile while preserving aspect ratio */
   transition: 0.3s;
 }
 
