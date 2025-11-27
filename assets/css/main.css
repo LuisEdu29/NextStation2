@@ -746,9 +746,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-.linha-cor .heading .cta-btn:hover {
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 10%);
-}
+
 
 .linha-cor nav {
   background-color: color-mix(in srgb, var(--linha-color), transparent 0%);
