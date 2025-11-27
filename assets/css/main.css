@@ -693,7 +693,7 @@ h6 {
 }
 
 .page-title nav {
-  background-color: color-mix(in srgb, var(--linha-color), transparent 0%);
+  background-color: color-mix(in srgb, var(--surface-color), transparent 0%);
   padding: 20px 0;
 }
 
