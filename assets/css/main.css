@@ -24,7 +24,7 @@
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #fd974b; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #c8ada6; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --linha-color: #1d00c1;
+  --linha-color: #584aa5;
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -693,7 +693,7 @@ h6 {
 }
 
 .page-title nav {
-  background-color: color-mix(in srgb, var(--surface-color), transparent 40%);
+  background-color: color-mix(in srgb, var(--linha-color), transparent 0%);
   padding: 20px 0;
 }
 
@@ -715,7 +715,21 @@ h6 {
   display: inline-block;
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
-  
+}
+.linha-cor {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  position: relative;
+}
+
+.linha-cor .heading {
+  padding: 80px 0;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.linha-cor .heading h1 {
+  font-size: 64px;
+  font-weight: 400;
 }
 
 .linha-cor .heading .cta-btn {
@@ -732,6 +746,9 @@ h6 {
   letter-spacing: 1px;
 }
 
+.linha-cor .heading .cta-btn:hover {
+  background-color: color-mix(in srgb, var(--accent-color) 90%, white 10%);
+}
 
 .linha-cor nav {
   background-color: color-mix(in srgb, var(--linha-color), transparent 0%);
@@ -757,6 +774,7 @@ h6 {
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
+
 
 /*--------------------------------------------------------------
 # Global Sections
