@@ -715,7 +715,24 @@ h6 {
   display: inline-block;
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
+  
 }
+
+.linha-cor .heading .cta-btn {
+  color: var(--default-color);
+  background: var(--accent-color);
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
 .linha-cor nav {
   background-color: color-mix(in srgb, var(--linha-color), transparent 0%);
   padding: 20px 0;
