@@ -1655,7 +1655,7 @@ section,
 
 .contact .info-item i {
   font-size: 20px;
-  color: var(--accent-color);
+  color: var(--linha1-color);
   width: 56px;
   height: 56px;
   display: flex;
