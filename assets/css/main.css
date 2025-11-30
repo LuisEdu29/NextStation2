@@ -1681,7 +1681,7 @@ section,
 }
 
 .contact .info-item:hover i {
-  background: var(--accent-color);
+  background: var(--linha1-color);
   color: var(--contrast-color);
 }
 
