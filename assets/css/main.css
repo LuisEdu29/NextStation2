@@ -184,7 +184,7 @@ h6 {
 
 .header .header-social-links a {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding-left: 6px;
+  padding-left: 20px;
   display: inline-block;
   transition: 0.3s;
   font-size: 16px;
@@ -1655,7 +1655,7 @@ section,
 
 .contact .info-item i {
   font-size: 20px;
-  color: var(--accent-color);
+  color: var(--linha1-color);
   width: 56px;
   height: 56px;
   display: flex;
@@ -1663,7 +1663,7 @@ section,
   align-items: center;
   transition: all 0.3s ease-in-out;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
+  border: 1px solid color-mix(in srgb, var(--linha1-color), transparent 40%);
   margin-right: 15px;
 }
 
@@ -1681,7 +1681,7 @@ section,
 }
 
 .contact .info-item:hover i {
-  background: var(--accent-color);
+  background: var(--linha1-color);
   color: var(--contrast-color);
 }
 
