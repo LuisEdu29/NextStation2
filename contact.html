@@ -56,9 +56,9 @@
               <li><a href="Galeria.html#Linha-1-Azul">Linha 1 Azul</a></li>
               <li><a href="Galeria.html#Linha-2-Verde">Linha 2 Verde</a></li>
               <li><a href="Galeria.html#Linha-3-Vermelha">Linha 3 Vermelha</a></li>
-              <li><a href="Galeria.html#Linha-4-Amarela">Linha 4 Amarela</a></li>
               <li><a href="Galeria.html#Linha-7-Rubi">Linha 7 Rubi</a></li>
               <li><a href="Galeria.html#Linha-8-Diamante">Linha 8 Diamante</a></li>
+              <li><a href="Galeria.html#Linha-10-Turquesa">Linha 10 Turquesa</a></li>
             </ul>
           </li>
           <li><a href="contact.html" class="active">Contato</a></li>
@@ -141,7 +141,7 @@
           </div>
         </div>
 
-        <form action="https://formspree.io/f/mdkqalng" method="POST" class="email-form" data-aos="fade-up" data-aos-delay="300">
+        <form action="https://formspree.io/f/mdkqalng" method="POST" class="email-form" enctype="multipart/form-data" data-aos="fade-up" data-aos-delay="300">
           <div class="row gy-4">
 
             <div class="col-md-6">
@@ -160,12 +160,12 @@
               <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
             </div>
 
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="col-md-12">
+              
+              <input type="file" name="upload"></label>
+            </div>
 
-              <button type="submit">Send Message</button>
+              <button type="submit">Enviar</button>
             </div>
 
           </div>
